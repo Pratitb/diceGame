@@ -29,19 +29,20 @@ const DiceRoll = styled.div`
 	margin: 80px 0 0;
 	gap: 20px 0;
 	.dice_piece {
+		max-width: 150px;
 		cursor: pointer;
 	}
 	.dice_label {
-		font-size: 24px;
+		font-size: 20px;
 		text-transform: capitalize;
 	}
 	.reset_score,
 	.show_rules {
-		font-size: 24px;
+		font-size: 20px;
 		border-radius: 4px;
 		width: 100%;
-		max-width: 200px;
-		height: 60px;
+		max-width: 150px;
+		height: 50px;
 		border: none;
 		background-color: #43a047;
 		color: aliceblue;

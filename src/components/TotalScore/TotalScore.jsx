@@ -3,23 +3,26 @@ import styled from 'styled-components';
 const TotalScore = ({ score }) => {
 	return (
 		<TotalScoreWrap>
-			<p className="score_number">{score}</p>
 			<p className="score_text">total score</p>
+			<p className="score_number">{score}</p>
 		</TotalScoreWrap>
 	);
 };
 
 const TotalScoreWrap = styled.div`
-	display: inline-block;
+	display: flex;
+	align-items: center;
 	text-align: center;
+	gap: 0 20px;
 	border: 1px solid;
 	padding: 10px;
 	.score_number {
-		font-size: 100px;
+		font-size: 50px;
+		line-height: 60px;
 		font-weight: 700;
 	}
     .score_text{
-        font-size: 30px;
+        font-size: 24px;
         text-transform: capitalize;
     }
 `;

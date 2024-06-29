@@ -19,20 +19,22 @@ const Container = styled.div`
 	padding: 0 20px;
 	min-height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
 
 	.game_name {
-		font-size: 50px;
+		font-size: 35px;
 		font-weight: 700;
         text-transform: capitalize;
 	}
 	.start_game_dices {
-		max-width: 500px;
+		max-width: 100%;
 	}
 	.start_btn{
         display: flex;
         flex-direction: column;
+		align-items: center;
         gap: 30px 0;
     } .start_game_btn {
 		font-size: 24px;

@@ -62,9 +62,11 @@ const GamePlay = () => {
 
 const GameOptions = styled.div`
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 0 0;
+	gap: 20px 0;
 `;
 
 const DiceGame = styled.div`

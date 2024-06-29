@@ -31,7 +31,7 @@ const NumberSelectWrap = styled.div`
 	gap: 0 5px;
 
 	.errorMsg {
-		font-size: 20px;
+		font-size: 14px;
 		color: #ef5350;
 	}
 	.dice_numbers {
@@ -41,13 +41,14 @@ const NumberSelectWrap = styled.div`
 `;
 
 const SelectNumber = styled.p`
-	display: inline-block;
-	font-size: 40px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
 	/* padding: 5px 10px; */
 	border: 1px solid;
-	width: 70px;
-	height: 70px;
-	line-height: 70px;
+	width: 40px;
+	height: 40px;
 	text-align: center;
 	background-color: ${(props) => (props.checkSelected ? 'black' : 'white')};
 	color: ${(props) => (props.checkSelected ? 'white' : 'black')};
