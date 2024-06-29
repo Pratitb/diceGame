@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const StartGame = ({toggle}) => {
   return (
     <Container>
-        <img className='start_game_dices' src="/start-game-dices.png" alt="Multiple big dices" />
+        <img className='start_game_dices' src="start-game-dices.png" alt="Multiple big dices" />
         <div className="start_btn">
             <p className="game_name">Dice prediction</p>
             <button className='start_game_btn' onClick={toggle}>Play now</button>

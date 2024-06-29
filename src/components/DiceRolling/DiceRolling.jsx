@@ -8,7 +8,7 @@ const DiceRolling = ({ currentDice, shuffleDice, resetScore }) => {
 		<DiceRoll>
 			<img
 				className="dice_piece"
-				src={`/dice_${currentDice}.png`}
+				src={`dice_${currentDice}.png`}
 				alt="Black Dice with 1 dot"
 				onClick={shuffleDice}
 			/>
