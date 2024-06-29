@@ -21,10 +21,20 @@ const TotalScoreWrap = styled.div`
 		line-height: 60px;
 		font-weight: 700;
 	}
-    .score_text{
-        font-size: 24px;
-        text-transform: capitalize;
-    }
+	.score_text {
+		font-size: 24px;
+		text-transform: capitalize;
+	}
+
+	@media screen and (min-width: 1024px) {
+		padding: 20px;
+		.score_number {
+			font-size: 70px;
+		}
+		.score_text {
+			font-size: 30px;
+		}
+	}
 `;
 
 export default TotalScore;

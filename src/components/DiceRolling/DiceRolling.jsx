@@ -47,6 +47,20 @@ const DiceRoll = styled.div`
 		background-color: #43a047;
 		color: aliceblue;
 	}
+
+	@media screen and (min-width: 768px){
+		.dice_piece{
+			max-width: 200px;
+		}
+	}
+	@media screen and (min-width: 1024px){
+		.dice_piece{
+			max-width: 100%;
+		}
+		.dice_label{
+			font-size: 24px;
+		}
+	}
 `;
 
 export default DiceRolling;
